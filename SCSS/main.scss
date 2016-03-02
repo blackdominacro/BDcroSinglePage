@@ -1,0 +1,14 @@
+// HERE IS WHERE THE MAGIC HAPPENDS :O 
+// main.scss is compailed into main.css with all included assets.
+// You dont have to edit this file,if you need something styled do it in a proper scss file.
+
+// TIP: in terminal ( if you dont use linux you are dead to me) in scss folder structure compile 
+// your scss to css using compass with command compass --watch scss/main.sccc css/main.css
+
+// http://compass-style.org/help/documentation/command-line/
+
+    @import "ASSETS/fonts";
+    @import "ASSETS/mixins";
+    @import "ASSETS/vars";
+    @import "ASSETS/style";
+    
